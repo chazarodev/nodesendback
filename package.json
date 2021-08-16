@@ -1,0 +1,22 @@
+{
+  "name": "nodesend",
+  "version": "1.0.0",
+  "description": "Proyecto NodeSend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js ",
+    "start": "node ./index.js"
+  },
+  "author": "Alberto Cházaro",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "mongoose": "^5.13.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
