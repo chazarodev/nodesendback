@@ -6,7 +6,7 @@ exports.nuevoUsuario = async (req, res) => {
 
     //Mostrar mensajes de error de express validator
     const errores = validationResult(req)
-    if(!rerrores.isEmpty()) {
+    if(!errores.isEmpty()) {
         return res.status(400).json({errores: errores.array()})
     }
 
